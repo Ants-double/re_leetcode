@@ -42,4 +42,6 @@ public class RegularExpressionMatching {
 		}
 		return s.charAt(i - 1) == p.charAt(j - 1);
 	}
+
+	// 可以考虑回朔，没有想明白
 }
