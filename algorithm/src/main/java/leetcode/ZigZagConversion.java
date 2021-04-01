@@ -12,6 +12,7 @@ public class ZigZagConversion {
     public static void main(String[] args) {
         String ababa = convert("PAYPALISHIRING", 3);
         System.out.println(ababa);
+        String[] temp={"","1"};
     }
 
     public static String convert(String s, int numRows) {
