@@ -32,6 +32,7 @@ public class Pow50 {
         return d2;
     }
 
+    // test git
     public static double myPow3(double x, long n) {
         if (n == 0) return 1;
         else if (n > 0 && n % 2 == 0) return myPow3(x * x, n / 2);
