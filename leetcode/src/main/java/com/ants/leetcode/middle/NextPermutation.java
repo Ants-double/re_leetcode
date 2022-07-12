@@ -31,6 +31,7 @@ public class NextPermutation {
             swap(nums, i, j);
         }
         reverse(nums, i + 1);
+        Arrays.stream(nums).forEach(x-> System.out.println(x));
     }
 
     public static void swap(int[] nums, int i, int j) {
