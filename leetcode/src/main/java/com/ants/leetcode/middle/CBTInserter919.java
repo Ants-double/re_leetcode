@@ -8,7 +8,7 @@ import java.util.Queue;
  */
 public class CBTInserter919 {
     public static void main(String[] args) {
-        CBTInserter test=new CBTInserter(null);
+        //CBTInserter test=new CBTInserter(null);
 
 
     }
