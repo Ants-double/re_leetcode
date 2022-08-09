@@ -24,7 +24,5 @@ public class GeneratesAndOdd {
         }
         return Collections.nCopies(n-1,"a").stream().collect(Collectors.joining())+"b";
 
-
-
     }
 }
